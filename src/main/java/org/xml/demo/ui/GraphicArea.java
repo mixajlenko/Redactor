@@ -24,6 +24,8 @@ public class GraphicArea extends JComponent {
 
     private List<Figure> figures = new LinkedList<>();
 
+
+
     public GraphicArea() {
         addMouseListener(new MouseAdapter() {
 
